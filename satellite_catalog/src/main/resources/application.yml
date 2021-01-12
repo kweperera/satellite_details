@@ -5,7 +5,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://localhost:3306/satellite_db
+    url: jdbc:mysql://satellitedb.cfl1nlrulmmx.us-east-1.rds.amazonaws.com:3306/satellite_db
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
